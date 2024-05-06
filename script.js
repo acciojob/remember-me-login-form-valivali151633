@@ -23,7 +23,7 @@ window.onload = function() {
     });
 
     if (localStorage.getItem("username") && localStorage.getItem("password")) {
-        existingBtn.style.display = "block";
+        existingBtn.style.display = "inline"; // changed display property to inline
     }
 
     existingBtn.addEventListener("click", function(event) {
